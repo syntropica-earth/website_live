@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self' https://formspree.io; form-action https://formspree.io; base-uri 'self'; object-src 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="noindex" data-preview>
+<title>Syntropica · Monitoraggio e gestione forestale</title>
+<meta name="description" content="Monitoraggio satellitare e metodo di calcolo basato su ISO 14064-2 per misurare, pianificare e gestire i boschi delle aree alpine e delle aree interne.">
+<link rel="canonical" href="https://syntropica.earth/">
+<link rel="alternate" hreflang="it" href="https://syntropica.earth/">
+<link rel="alternate" hreflang="en" href="https://syntropica.earth/en/">
+<link rel="alternate" hreflang="x-default" href="https://syntropica.earth/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Syntropica">
+<meta property="og:title" content="Syntropica · Misura forestale con incertezza dichiarata"><meta property="og:description" content="Monitoraggio satellitare e metodo di calcolo basato su ISO 14064-2 per i boschi delle aree alpine e interne. Società Benefit.">
+<meta property="og:url" content="https://syntropica.earth/">
+<meta property="og:image" content="https://syntropica.earth/og/og-it.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Syntropica: software e metodo forestale.">
+<meta property="og:locale" content="it_IT"><meta property="og:locale:alternate" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Syntropica · Misura forestale con incertezza dichiarata"><meta name="twitter:description" content="Monitoraggio satellitare e metodo di calcolo basato su ISO 14064-2 per i boschi delle aree alpine e interne. Società Benefit."><meta name="twitter:image" content="https://syntropica.earth/og/og-it.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preload" href="/fonts/space-grotesk-latin-300-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/space-grotesk-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/space-grotesk-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/avif" media="(max-width: 559px)" href="/assets/img/hero-home-mobile-1080.avif">
+<link rel="preload" as="image" type="image/avif" media="(min-width: 560px)" imagesrcset="/assets/img/hero-home-1440.avif 1440w, /assets/img/hero-home-2880.avif 2880w" imagesizes="(min-width: 1080px) 1290px, 100vw">
+<noscript><link rel="stylesheet" href="/assets/splash-off.css"></noscript>
+<script src="/assets/splash.js?v=1791892073" defer></script>
+<link rel="stylesheet" href="/assets/site.css?v=1791892073">
+<script src="/assets/site.js?v=1791892073" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://syntropica.earth/#org", "name": "Syntropica", "legalName": "SYNTROPICA S.R.L. SB", "url": "https://syntropica.earth/", "logo": {"@type": "ImageObject", "url": "https://syntropica.earth/icon-512.png", "width": 512, "height": 512}, "vatID": "IT01109100147", "taxID": "01109100147", "email": "contact@syntropica.earth", "address": {"@type": "PostalAddress", "streetAddress": "via Valgerola 7b", "postalCode": "23017", "addressLocality": "Morbegno", "addressRegion": "SO", "addressCountry": "IT"}, "contactPoint": [{"@type": "ContactPoint", "contactType": "customer support", "email": "contact@syntropica.earth", "availableLanguage": ["it", "en"]}, {"@type": "ContactPoint", "contactType": "PEC", "email": "syntropica@pec.it", "availableLanguage": ["it"]}]}, {"@type": "WebSite", "@id": "https://syntropica.earth/#website", "url": "https://syntropica.earth/", "name": "Syntropica", "inLanguage": ["it-IT", "en-GB"], "publisher": {"@id": "https://syntropica.earth/#org"}}]}</script>
+</head>
+<body>
+<div class="splash" id="ingresso" role="dialog" aria-modal="true" aria-label="Syntropica" tabindex="-1">
+  <span class="lockup lockup--stack"><svg class="mark" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" shape-rendering="crispEdges"><rect x="0" y="0" width="6" height="6"/><rect x="9" y="0" width="6" height="6"/><rect x="18" y="0" width="6" height="6"/><rect x="0" y="9" width="6" height="6"/><rect x="18" y="9" width="6" height="6"/><rect x="0" y="18" width="6" height="6"/><rect x="9" y="18" width="6" height="6"/><rect x="18" y="18" width="6" height="6"/></svg><span class="wordmark">syntropica</span></span>
+  <p class="splash-lang"><a href="/" lang="it" hreflang="it">IT</a><span aria-hidden="true">/</span><a href="/en/" lang="en" hreflang="en">EN</a></p>
+</div>
+<a class="skip" href="#contenuto">Vai al contenuto</a>
+<header class="site-header">
+  <div class="menu-dialog">
+    <div class="container header-bar">
+      <a class="lockup" href="/" aria-label="Syntropica, home"><svg class="mark" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" shape-rendering="crispEdges"><rect x="0" y="0" width="6" height="6"/><rect x="9" y="0" width="6" height="6"/><rect x="18" y="0" width="6" height="6"/><rect x="0" y="9" width="6" height="6"/><rect x="18" y="9" width="6" height="6"/><rect x="0" y="18" width="6" height="6"/><rect x="9" y="18" width="6" height="6"/><rect x="18" y="18" width="6" height="6"/></svg><span class="wordmark">syntropica</span></a>
+      <nav class="nav-bar" aria-label="Principale">
+        <ul>
+          <li><a class="nav-cell" href="/metodo/"><span>Metodo</span></a></li>
+          <li><a class="nav-cell" href="/stewardship/">Stewardship</a></li>
+          <li><button class="nav-cell perchi" type="button" aria-expanded="false" aria-controls="perchi-panel"><span>Per chi</span><svg class="ico chev" viewBox="0 0 10 6" aria-hidden="true" focusable="false"><path d="M1 1L5 5L9 1"/></svg></button>
+            <ul class="perchi-panel" id="perchi-panel" hidden>
+              <li><a href="/investitori/"><span>Investitori</span></a></li>
+              <li><a href="/imprese/"><span>Imprese</span></a></li>
+              <li><a href="/enti-e-comuni/"><span>Enti e Comuni</span></a></li>
+              <li><a href="/proprietari/"><span>Proprietari</span></a></li>
+            </ul>
+          </li>
+          <li><a class="nav-cell" href="/about/">About</a></li>
+          <li><div class="nav-cell nav-cell--lang lang"><span class="lang-cur" aria-current="true"><span>IT</span></span><span class="sep"> / </span><a class="lang-alt" href="/en/" data-alt="/en/" hreflang="en" lang="en" aria-label="English"><span>EN</span></a></div></li>
+          <li><a class="nav-cell nav-cell--cta" href="/contatti/"><span class="btn-label"><span>Parliamoci</span> <svg class="arw" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M1 8H15M10 3L15 8L10 13"/></svg></span></a></li>
+        </ul>
+      </nav>
+      <div class="header-compact">
+        <a class="btn btn--compact" href="/contatti/"><span>Parliamoci</span></a>
+        <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu-panel"><span class="menu-label">Menu</span><svg class="ico ico-menu" viewBox="0 0 18 18" aria-hidden="true" focusable="false"><path d="M0 6H18M0 12H18"/></svg><svg class="ico ico-close" viewBox="0 0 18 18" aria-hidden="true" focusable="false"><path d="M2 2L16 16M16 2L2 16"/></svg></button>
+      </div>
+    </div>
+    <div class="menu-panel" id="menu-panel">
+      <nav aria-label="Principale">
+        <ul>
+          <li><a class="mp-main" href="/metodo/"><span>Metodo</span></a></li>
+          <li><a class="mp-main" href="/stewardship/">Stewardship</a></li>
+          <li><span class="mp-label">Per chi</span></li>
+          <li><a class="mp-sub" href="/investitori/"><span>Investitori</span></a></li>
+          <li><a class="mp-sub" href="/imprese/"><span>Imprese</span></a></li>
+          <li><a class="mp-sub" href="/enti-e-comuni/"><span>Enti e Comuni</span></a></li>
+          <li><a class="mp-sub" href="/proprietari/"><span>Proprietari</span></a></li>
+          <li><a class="mp-main" href="/about/">About</a></li>
+          <li><div class="lang lang--long"><span class="lang-cur" aria-current="true"><span>Italiano</span></span><span class="sep"> · </span><a class="lang-alt" href="/en/" data-alt="/en/" hreflang="en" lang="en" aria-label="English"><span>English</span></a></div></li>
+        </ul>
+        <a class="btn btn--block" href="/contatti/"><span class="btn-label"><span>Parliamoci</span> <svg class="arw" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M1 8H15M10 3L15 8L10 13"/></svg></span></a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main id="contenuto">
+<section class="hero hero--home" aria-labelledby="h1">
+  <div class="container">
+    <div class="hero-txt">
+      <h1 id="h1"><span>Ogni ettaro, un&nbsp;numero.</span> <span>Ogni numero, un&nbsp;metodo.</span></h1>
+      <p class="lede">Syntropica misura i boschi delle aree alpine e delle aree interne e ne dichiara l'incertezza, con strumenti di monitoraggio satellitare e un metodo di calcolo basato su ISO 14064-2.</p>
+      <p class="home-claim">Il numero, con la sua incertezza.</p>
+      <p class="home-imprese"><a class="link" href="/imprese/"><b>Per le imprese: insetting forestale, cioè la cura di un bosco nel territorio in cui operate. Quantità in tCO2e (tonnellate di CO2 equivalente) con incertezza dichiarata, da valutare per il vostro inventario. Non sono crediti. <svg class="arw" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M1 8H15M10 3L15 8L10 13"/></svg></a></p>
+      <p class="home-proof">Cosa ricevete: un report riesaminabile, con la tracciabilità di dati, versioni e passaggi, che riporta lo stock di carbonio con la sua incertezza e la baseline adottata. La verifica la svolge un organismo di parte terza scelto dall'impresa.</p>
+      <p class="home-proof">Dati osservabili. Metodo di calcolo basato su ISO 14064-2, validato da Bureau Veritas sui progetti pilota (2026). La validazione è intestata a terzi: di volta in volta, al committente che Syntropica affianca nel progetto; ha per oggetto il metodo di calcolo.</p>
+    </div>
+  </div>
+  <div class="hero-photo photo-wrap">
+    <picture>
+      <source media="(max-width: 559px)" type="image/avif" srcset="/assets/img/hero-home-mobile-1080.avif">
+      <source media="(max-width: 559px)" type="image/webp" srcset="/assets/img/hero-home-mobile-1080.webp">
+      <source type="image/avif" srcset="/assets/img/hero-home-1440.avif 1440w, /assets/img/hero-home-2880.avif 2880w" sizes="(min-width: 1080px) 1290px, 100vw">
+      <source type="image/webp" srcset="/assets/img/hero-home-1440.webp 1440w, /assets/img/hero-home-2880.webp 2880w" sizes="(min-width: 1080px) 1290px, 100vw">
+      <img class="photo" src="/assets/img/hero-home-1440.jpg" width="1440" height="960" alt="Immagine satellitare in bianco e nero di un territorio montano solcato da valli." fetchpriority="high" decoding="async">
+    </picture>
+    <div class="photo-grid" aria-hidden="true"></div>
+  </div>
+</section>
+
+<section class="section section--dense" aria-labelledby="h-imprese">
+  <div class="container">
+    <div class="ruler" aria-hidden="true"><span class="ruler-num">02</span></div>
+    <h2 id="h-imprese">Per le imprese: insetting forestale, con metodo.</h2>
+    <p class="lede">Un'impresa che ha filiera, siti o persone in un territorio forestale può promuovere lì la gestione di un bosco, concordata con i proprietari e le aziende forestali. Syntropica fornisce il metodo: misura lo stock, calcola le tCO2e con la loro incertezza, prepara la documentazione. La verifica passa da un organismo scelto dall'impresa, che resta l'unica a dichiarare. Non facciamo offsetting.</p>
+    <p class="keep-link"><a class="link" href="/imprese/">Come funziona per un'impresa <svg class="arw" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M1 8H15M10 3L15 8L10 13"/></svg></a></p>
+  </div>
+</section>
+
+<section class="section paradox" aria-labelledby="h-paradosso">
+  <div class="container">
+    <div class="ruler" aria-hidden="true"><span class="ruler-num">03</span></div>
+    <div class="split">
+      <div class="split-head">
+        <h2 id="h-paradosso">Il paradosso alpino.</h2>
+        <p class="lede lede-light sub">Un patrimonio ecologico unico, che l'abbandono trasforma in costo.</p>
+      </div>
+      <div class="split-body">
+        <div class="baita">
+          <picture>
+            <source media="(max-width: 559px)" srcset="/assets/img/paradosso-baita-mobile-1080.jpg">
+            <img class="photo" src="/assets/img/paradosso-baita-1170.jpg" srcset="/assets/img/paradosso-baita-1170.jpg 1170w, /assets/img/paradosso-baita-2340.jpg 2340w" sizes="(min-width: 1392px) calc(50vw + 208px), (min-width: 1080px) calc(66.67vw - 24px), calc(100vw - 80px)" width="1170" height="780" alt="Muro in pietra a secco con la sagoma di una capanna, tra il bosco e le felci che avanzano, in bianco e nero." loading="lazy" decoding="async">
+          </picture>
+        </div>
+        <div class="paradox-txt">
+          <p class="lede">Le Alpi non sono <i lang="en">wilderness</i>: sono un'infrastruttura ecosistemica plasmata da secoli di equilibrio tra opera umana e ambiente. L'abbandono dei luoghi un tempo antropizzati produce dissesto idrogeologico e fragilità ecosistemica; milioni di ettari di foreste<sup class="fn"><a class="fn-ref" id="rif-1" href="#fonte-1" aria-label="Fonte 1">1</a></sup> diventano un costo per comuni, regioni e Stato.</p>
+          <p>Dal 1944 l'Italia ha subito circa 358 miliardi di euro di danni da terremoti e dissesto<sup class="fn"><a class="fn-ref" id="rif-2" href="#fonte-2" aria-label="Fonte 2">2</a></sup>. Dove la proprietà è frammentata tra molti eredi e i territori si spopolano, la prevenzione è meno giustificabile proprio dove serve di più.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="h-come">
+  <div class="container">
+    <div class="ruler" aria-hidden="true"><span class="ruler-num">04</span></div>
+    <h2 id="h-come">Dal satellite al report, un solo dato.</h2>
+    <p class="lede">Immagini satellitari e LiDAR, aree di saggio a terra, un procedimento basato su ISO 14064-2: gli stessi dati, trattati con le procedure descritte nel protocollo, portano allo stesso numero entro l'incertezza dichiarata. Sette passaggi, dal satellite alla decisione.</p>
+    <p class="factline list-gap"><span>SATELLITE</span>&nbsp;· <span>ZOOM</span>&nbsp;· <span>LIDAR</span>&nbsp;· <span>AREE DI SAGGIO</span>&nbsp;· <span>METODO</span>&nbsp;· <span>RAPPORTO</span>&nbsp;· <span>DECISIONE</span></p>
+    <p class="keep-link"><a class="link" href="/metodo/#sette-passaggi">I sette passaggi del metodo <svg class="arw" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M1 8H15M10 3L15 8L10 13"/></svg></a></p>
+  </div>
+</section>
+
+<section class="section section--dense" aria-labelledby="h-perchi">
+  <div class="container">
+    <div class="ruler" aria-hidden="true"><span class="ruler-num">05</span></div>
+    <h2 id="h-perchi">Altri punti di partenza.</h2>
+    <div class="row-list list-gap">
+      <a class="row-link" href="/enti-e-comuni/">
+        <h3 class="row-title">Enti e Comuni.</h3>
+        <p class="row-text">Il territorio forestale che amministrate, misurato e seguito nel tempo, per decidere dove intervenire prima.</p>
+        <span class="row-arw"><svg class="arw" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M1 8H15M10 3L15 8L10 13"/></svg></span>
+      </a>
+      <a class="row-link" href="/proprietari/">
+        <h3 class="row-title">Proprietari.</h3>
+        <p class="row-text">Sapere cosa c'è nel proprio bosco è il primo passo per prendersene cura. Lo misuriamo e lo pianifichiamo con voi, senza che dobbiate cederne la proprietà.</p>
+        <span class="row-arw"><svg class="arw" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M1 8H15M10 3L15 8L10 13"/></svg></span>
+      </a>
+      <a class="row-link" href="/investitori/">
+        <h3 class="row-title">Investitori.</h3>
+        <p class="row-text">Un metodo di calcolo forestale e una governance pensata per durare. La tesi, lo stato del lavoro, come è custodito lo scopo.</p>
+        <span class="row-arw"><svg class="arw" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M1 8H15M10 3L15 8L10 13"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="h-custodia">
+  <div class="container">
+    <div class="ruler" aria-hidden="true"><span class="ruler-num">06</span></div>
+    <h2 id="h-custodia">Pensata per durare.</h2>
+    <div class="keep">
+      <p class="lede">Syntropica è la prima impresa italiana nata per la steward-ownership<sup class="fn"><a class="fn-ref" id="rif-3" href="#fonte-3" aria-label="Fonte 3">3</a></sup>: nata fin dall'atto costitutivo con uno statuto predisposto per questo scopo. È un modello diffuso nel Nord Europa per imprese pensate per durare: il controllo resta nelle mani di chi custodisce la missione, oltre i soci del momento. Siamo una Società Benefit e il nostro statuto prevede la possibile emissione di quote speciali (S) per un ente custode, cioè un soggetto che vigila sullo scopo della società.</p>
+      <p class="factline"><span>SOCIETÀ BENEFIT</span>&nbsp;· <span>SCOPO IN STATUTO</span>&nbsp;· <span>QUOTE SPECIALI DESTINATE A UN ENTE CUSTODE</span></p>
+    </div>
+    <p class="keep-link"><a class="link" href="/stewardship/#steward-ownership">Come funziona <svg class="arw" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M1 8H15M10 3L15 8L10 13"/></svg></a></p>
+  </div>
+</section>
+
+<section class="sources" aria-labelledby="fonti-titolo">
+  <div class="container">
+    <div class="ruler" aria-hidden="true"></div>
+    <h2 id="fonti-titolo">Fonti</h2>
+    <ol>
+      <li id="fonte-1"><span class="fn-num">1</span> INFC 2015, Inventario Nazionale delle Foreste e dei serbatoi forestali di Carbonio: 9,17 milioni di ettari di bosco e 1,82 milioni di altre terre <span class="nw">boscate. <a class="fn-back" href="#rif-1" aria-label="Torna al testo"><svg class="arw-return" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M14 3V10H2M6 6L2 10L6 14"/></svg></a></span></li>
+      <li id="fonte-2"><span class="fn-num">2</span> ANCE-CRESME, <cite>Secondo rapporto sullo stato di rischio del territorio italiano</cite>, novembre <span class="nw">2023. <a class="fn-back" href="#rif-2" aria-label="Torna al testo"><svg class="arw-return" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M14 3V10H2M6 6L2 10L6 14"/></svg></a></span></li>
+      <li id="fonte-3"><span class="fn-num">3</span> Steward-ownership in Europa: <span class="nw"><a class="link" href="https://europeanownership.eu/">europeanownership.eu</a> <a class="fn-back" href="#rif-3" aria-label="Torna al testo"><svg class="arw-return" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M14 3V10H2M6 6L2 10L6 14"/></svg></a></span></li>
+    </ol>
+  </div>
+</section>
+
+<div class="home-close section--dark">
+  <div class="container">
+    <a class="btn btn--inv" href="/contatti/?chi=impresa#modulo">Parliamoci</a>
+    <div class="home-mark" aria-hidden="true"><span></span><span></span><span></span><span></span><span class="o"></span><span></span><span></span><span></span><span></span></div>
+  </div>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="ruler" aria-hidden="true"></div>
+    <div class="ft-cols">
+      <div class="ft-brand">
+        <a class="lockup lockup--lg" href="/" aria-label="Syntropica, home"><svg class="mark" viewBox="0 0 32 32" width="32" height="32" aria-hidden="true" focusable="false" shape-rendering="crispEdges"><rect x="0" y="0" width="8" height="8"/><rect x="12" y="0" width="8" height="8"/><rect x="24" y="0" width="8" height="8"/><rect x="0" y="12" width="8" height="8"/><rect x="24" y="12" width="8" height="8"/><rect x="0" y="24" width="8" height="8"/><rect x="12" y="24" width="8" height="8"/><rect x="24" y="24" width="8" height="8"/></svg><span class="wordmark">syntropica</span></a>
+        <p class="ft-sb">Società Benefit</p>
+        <p class="ft-sb ft-sb2" lang="en">Steward-ownership ready</p>
+      </div>
+      <ul class="ft-pages ft-links">
+        <li><a href="/metodo/"><span>Metodo</span></a></li>
+        <li><a href="/stewardship/"><span>Stewardship</span></a></li>
+        <li><a href="/investitori/"><span>Investitori</span></a></li>
+        <li><a href="/imprese/"><span>Imprese</span></a></li>
+        <li><a href="/enti-e-comuni/"><span>Enti e Comuni</span></a></li>
+        <li><a href="/proprietari/"><span>Proprietari</span></a></li>
+        <li><a href="/about/"><span>About</span></a></li>
+        <li><a href="/contatti/"><span>Contatti</span></a></li>
+      </ul>
+      <div class="ft-legalnav">
+        <ul class="ft-links">
+          <li><a href="/note-legali/"><span>Note legali</span></a></li>
+          <li><a href="/privacy/"><span>Privacy</span></a></li>
+        </ul>
+        <div class="lang"><span class="lang-cur" aria-current="true"><span>IT</span></span><span class="sep"> / </span><a class="lang-alt" href="/en/" data-alt="/en/" hreflang="en" lang="en" aria-label="English"><span>EN</span></a></div>
+      </div>
+    </div>
+    <div class="ft-legal mono">
+      <p class="ft-copy">© 2026 Syntropica S.r.l. SB</p>
+      <address class="ft-data">
+        <span>SYNTROPICA S.R.L. SB</span>
+        <span>P.IVA e C.F. <button class="copy" type="button"><span>01109100147</span></button></span>
+        <span>REA SO-83469</span>
+        <span>via Valgerola 7b, Morbegno (SO)</span>
+        <span><button class="copy" type="button"><span>contact@syntropica.earth</span></button></span>
+        <span><button class="copy" type="button"><span>syntropica@pec.it</span></button></span>
+      </address>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

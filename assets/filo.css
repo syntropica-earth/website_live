@@ -1,0 +1,21 @@
+/* Figura del Metodo: ortofoto, particelle, strati, albero (solo pagina Metodo) */
+.filo{position:relative;background:var(--dk-bg);color:var(--dk-head)}
+.filo-stage{position:relative;width:100%;aspect-ratio:5/2;overflow:hidden;background:var(--dk-bg);cursor:pointer;--tv:0}
+.filo-stage:focus-visible{outline:2px solid var(--signal);outline-offset:-4px}
+.filo-svg,.filo-cv{position:absolute;inset:0;width:100%;height:100%}
+.filo-svg{overflow:hidden}
+.filo-cv{pointer-events:none}
+.filo-grid{position:absolute;inset:0;pointer-events:none;--grid-step:64px;background-image:repeating-linear-gradient(to right,rgba(255,255,255,.2) 0 1px,transparent 1px var(--grid-step)),repeating-linear-gradient(to bottom,rgba(255,255,255,.2) 0 1px,transparent 1px var(--grid-step))}
+.filo-tv{position:absolute;inset:0;background:var(--dk-bg);opacity:var(--tv);pointer-events:none}
+.filo-title{position:absolute;left:var(--margin);top:clamp(16px,3vw,44px);max-width:min(24%,430px);margin:0;font-size:var(--lede);line-height:var(--lede-lh);font-weight:700;color:var(--dk-head);pointer-events:none;opacity:0;text-shadow:0 0 18px rgba(17,17,17,.9)}
+.filo-foot{padding-top:16px;padding-bottom:var(--s-dense,48px)}
+.filo-rep{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;border:1px solid var(--paper);color:var(--paper)}
+.filo-rep:hover{background:var(--paper);color:var(--ink)}
+.filo-rep svg{width:22px;height:22px}
+.filo-foot .small{margin-top:16px}
+.filo-z .oth path{fill:none;stroke:var(--paper);stroke-opacity:.55;stroke-width:1;vector-effect:non-scaling-stroke}
+.filo-z .oth .ch{fill:#fff;fill-opacity:0}
+.filo-z .area{fill:#fff;opacity:0;stroke:none}
+.filo-z .per{fill:none;stroke:#fff;stroke-width:3;vector-effect:non-scaling-stroke;stroke-dasharray:1000;stroke-dashoffset:1000;stroke-linejoin:round;opacity:0}
+.filo-z .pt{fill:var(--signal);fill-opacity:.2;stroke:var(--signal);stroke-width:2;vector-effect:non-scaling-stroke;opacity:0}
+@media (max-width:600px){.filo-stage{aspect-ratio:1/1}.filo-title{max-width:60%;top:16px}}

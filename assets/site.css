@@ -204,7 +204,7 @@ repeating-linear-gradient(to right,currentColor 0 1px,transparent 1px calc((100%
 .section--dark .step p{color:var(--dk-body)}
 .factline{color:var(--ink);border-top:1px solid var(--hair);padding-top:12px}
 .factline>span{white-space:normal}
-@media (min-width:560px){.factline>span{white-space:nowrap}
+@media (min-width:1024px){.factline>span{white-space:nowrap}
 }
 .tag{position:absolute;top:12px;left:12px;z-index:3;padding:4px 8px;border:1px solid var(--ink);background:var(--paper);color:var(--ink);pointer-events:none}
 .section--dark .tag{border-color:var(--paper);background:var(--dk-bg);color:var(--paper)}

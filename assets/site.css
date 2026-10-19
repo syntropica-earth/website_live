@@ -184,10 +184,10 @@ repeating-linear-gradient(to right,currentColor 0 1px,transparent 1px calc((100%
 .sheet--mono .sheet-row{align-items:first baseline}
 @media (min-width:820px){.sheet-row{grid-template-columns:repeat(var(--cols),minmax(0,1fr));column-gap:var(--gutter);align-items:start}
 .sheet-row>:first-child{grid-column:1/4}
-.sheet-row>:last-child{grid-column:4/9}
+.sheet-row>:not(:first-child){grid-column:4/9}
 }
 @media (min-width:1080px){.sheet-row>:first-child{grid-column:1/5}
-.sheet-row>:last-child{grid-column:5/13}
+.sheet-row>:not(:first-child){grid-column:5/13}
 }
 .step .num,.stat .num{font-variant-numeric:tabular-nums}
 .step h3{font-size:17px;line-height:28px;letter-spacing:0}

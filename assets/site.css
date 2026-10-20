@@ -24,6 +24,9 @@ html{font-synthesis:none;-webkit-text-size-adjust:100%;text-size-adjust:100%}
 body{margin:0;overflow-x:clip;background:var(--paper);color:var(--ink);font:400 17px/28px var(--sans);letter-spacing:0}
 ::selection{background:var(--signal);color:var(--ink)}
 .section--dark ::selection{background:var(--paper);color:var(--ink)}
+/* titoli grandi: il riquadro di selezione e' piu' alto dell'interlinea e copre le righe vicine; fondo traslucido, il testo resta leggibile */
+h1::selection,h1 *::selection,h2::selection,h2 *::selection{background:rgba(242,255,0,.5);color:var(--ink)}
+.section--dark h1::selection,.section--dark h1 *::selection,.section--dark h2::selection,.section--dark h2 *::selection,.hero-band h1::selection,.hero-band .hero-sub::selection{background:rgba(255,255,255,.35);color:#fff}
 a,button{-webkit-tap-highlight-color:transparent;color:inherit}
 button{font:inherit;letter-spacing:inherit;background:none;border:0;padding:0;margin:0;cursor:pointer;border-radius:0}
 h1,h2,h3,p,ol,ul,dl,dd,figure,blockquote{margin:0;padding:0}
